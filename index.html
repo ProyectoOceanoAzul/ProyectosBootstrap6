@@ -1,0 +1,1526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Metadatos -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Gerson Nery">
+    <meta name="description" content="Portafolio de desarrollo web de Gerson Nery">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+
+    <!-- Bootstrap -->
+    <!-- CDN via jsDelivr -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Iconos Bootstrap CDN -->
+    <!-- CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Google Font -->
+
+
+    <!-- css -->
+    <link rel="stylesheet" href="./css/estilos.css">
+
+    <!-- favicon-->
+    <link rel="icon" href="./imagenes/icon.png" type="image/x-icon">
+    <!-- titulo -->
+    <title>Proyecto Bootstrap</title>
+
+</head>
+
+<body>
+
+    <header class="contenedor__header" id="">
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="./imagenes/logocody.svg" alt="logocody" img src="logocody"
+                        class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                        alt=""> <span class="small fw-light text-secondary ps-2">93R50N</span> </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                    aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Projekte</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Catálogo</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Proyectos
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="#proyecto1">Proyecto #1</a></li>
+                                    <li><a class="dropdown-item" href="#proyecto2">Proyecto #2</a></li>
+                                    <li><a class="dropdown-item" href="#proyecto3">Proyecto #3</a></li>
+                                    <li><a class="dropdown-item" href="#proyecto4">Proyecto #4</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#proyecto5">Proyecto #5</a></li>
+                                    <li><a class="dropdown-item" href="#proyecto6">Proyecto #6</a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+
+
+
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <section class="contenedor_banner mt-5">
+
+        <div class="container">
+            <div class="row row1__banner">
+
+                <div class="col-12 mt-0">
+
+                    <div id="carouselExampleCaptions" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+
+
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                                aria-label="Slide 4"></button>
+
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                                aria-label="Slide 5"></button>
+
+
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+                                aria-label="Slide 6"></button>
+
+                        </div>
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./imagenes/banner1.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Proyecto #1</h5>
+                                    <p>Featuring the New Watch of Tomorrow</p>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="./imagenes/banner1.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Proyecto #2</h5>
+                                    <p>Manage your budget and financial future</p>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="./imagenes/banner1.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Proyecto #3</h5>
+                                    <p>Black Friday</p>
+                                </div>
+                            </div>
+
+
+                            <div class="carousel-item">
+                                <img src="./imagenes/banner1.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Proyecto #4</h5>
+                                    <p>Unlock Your Potential</p>
+                                </div>
+                            </div>
+
+
+
+                            <div class="carousel-item">
+                                <img src="./imagenes/banner1.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Proyecto #5</h5>
+                                    <p>Movil - Premium App One Page Template</p>
+                                </div>
+                            </div>
+
+
+                            <div class="carousel-item">
+                                <img src="./imagenes/banner1.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Proyecto #6</h5>
+                                    <p>Learn web development with real projects</p>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <!-- proyecto1 -->
+    <section class="contenedor__s1 h-100 mt-5" id="proyecto1">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <img src="./imagenes/logoproyecto1.svg" alt="" title="" class="mt-4 mb-4 logosize">
+
+                    <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);"
+                        aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="#"
+                                    class="text-dark fw-bolder text-decoration-none">Proyecto #1</a></li>
+                            <li class="breadcrumb-item active small" aria-current="page">Product</li>
+                            <li class="breadcrumb-item active small" aria-current="page">Features</li>
+                        </ol>
+                    </nav>
+
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-lg-6 s1__lado1">
+
+                    <div class="s1lado1__texto h-100">
+                        <h2 class="display-3 fw-light text-muted">
+                            Featuring the <span class="fw-bold text-dark">New Watch</span> of Tomorrow
+                        </h2>
+
+                        <p class="lead text-secondary">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos est dolore nemo
+                            veritatis,
+                            quisquam quo facere assumenda enim, odio necessitatibus vitae, inventore ea
+                            quibusdam
+                            fugiat.
+                        </p>
+
+                        <button type="button" class="btn btn-outline-secondary w-50 text-uppercase">Know
+                            more</button>
+
+                    </div>
+                </div>
+
+
+
+                <div class="col-lg-6 s1_lado2">
+
+                    <figure class="figure">
+                        <img src="./imagenes/seccion1.png" class="figure-img img-fluid rounded p-5" alt="...">
+                        <figcaption class="figure-caption text-center">Cras sollicitudin rutrum orci, eu condimentum.
+                        </figcaption>
+                    </figure>
+
+
+                </div>
+
+
+            </div>
+
+            <div class="row bg-light mb-5 mt-5">
+                <div class="col-lg-12 text-end p-4">
+                    <p class="display-6 text-muted">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur minima similique nostrum
+                        officia magnam vitae
+                        inventore aliquam ipsa ea accusantium.
+                    </p>
+                    <p class="small text-muted ">
+                        - Testimonials
+                    </p>
+                </div>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./imagenes/seccion1-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Card title</h5>
+                            <p class="card-text text-muted small">This is a wider card with supporting text below as a
+                                natural lead-in to
+                                additional
+                                content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-body-secondary">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-black border-2">
+                        <img src="./imagenes/seccion1-2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Card title</h5>
+                            <p class="card-text text-muted small">This card has supporting text below as a natural
+                                lead-in to additional
+                                content.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-body-secondary">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./imagenes/seccion1-3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Card title</h5>
+                            <p class="card-text text-muted small">This is a wider card with supporting text below as a
+                                natural lead-in to
+                                additional
+                                content. This card has even longer content than the first to show that equal height
+                                action.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-body-secondary">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <p class="text-end fs-3 ">
+                    <a href="#proyecto1"><i class="bi bi-house-up-fill text-danger"></i></a>
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- proyecto2 -->
+    <section class="contenedor__s2 h-100 mt-5" id="proyecto2">
+
+        <div class="container">
+            <div class="row s2_row1">
+                <div class="col-lg-12">
+
+                    <img src="./imagenes/logoproyecto2.svg" alt="" title="" class="mt-4 mb-4 logosize">
+
+                    <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);"
+                        aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item "><a href="#"
+                                    class="text-warning fw-bolder text-decoration-none">Proyecto #2</a></li>
+                            <li class="breadcrumb-item active small text-light" aria-current="page">About</li>
+                            <li class="breadcrumb-item active small text-light" aria-current="page">7 Steps</li>
+                        </ol>
+                    </nav>
+
+                </div>
+
+
+            </div>
+
+
+            <div class="row s2_row2">
+                <div class="col-lg-6 s2__lado1">
+
+                    <div class="s2lado1__texto h-100">
+                        <h2 class="display-3 fw-light text-light text-capitalize">
+                            Manage your budget and <span class="fw-bold text-warning">financial future</span>
+                        </h2>
+
+                        <p class="lead text-secondary">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae et, expedita eum veritatis
+                            debitis pariatur animi doloribus consectetur provident vero officia deserunt repellat.
+                            Fugit, ab.
+                        </p>
+
+                        <button type="button" class="btn btn-outline-warning w-50 text-uppercase ">Know
+                            more <i class="bi bi-arrow-right-circle"></i></button>
+
+                    </div>
+                </div>
+
+
+
+                <div class="col-lg-6 s2_lado2">
+
+                    <figure class="figure">
+                        <img src="./imagenes/seccion2.png" class="figure-img img-fluid rounded p-5" alt="...">
+                        <figcaption class="figure-caption text-info text-center">Cras sollicitudin rutrum orci, eu
+                            condimentum.</figcaption>
+                    </figure>
+
+                </div>
+
+
+            </div>
+
+
+            <div class="row bg-light s2_row3">
+                <div class="col-lg-12 text-end pt-5 pb-5">
+
+                    <h3 class="display-5 text-center text-capitalize mb-4">
+                        Why you should start a budget
+                    </h3>
+
+                    <p class="text-muted lead text-center">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. A sequi vitae quis nisi dolor, numquam
+                        culpa autem aut! Obcaecati nam expedita quam, labore exercitationem quidem magnam est rerum
+                        veritatis reiciendis quia. Quidem pariatur sit nemo placeat ea eveniet voluptatibus est fugiat
+                        esse, veritatis modi at sint nisi nam. Eius quis debitis, molestiae, illum libero neque vitae
+                        obcaecati cumque nulla quod corrupti asperiores labore qui sit voluptatum? Ab sunt eaque
+                        officiis autem doloribus quidem suscipit incidunt quia, minus ducimus, nesciunt facilis enim
+                        rem laborum quod saepe ipsam aut aspernatur. Rerum, consequuntur!
+                    </p>
+
+                </div>
+            </div>
+
+
+            <div class="row s2_row4">
+                <div class="col-sm-12 col-md-6 col-lg-6 s2row4__lado1">
+                    <div class="card text-bg-dark">
+                        <img src="./imagenes/seccion2-1.jpg" class="card-img img-fluid" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title fw-bold">The 7 baby steps of dave ramsey</h5>
+                            <p class="card-text">
+                                This is a wider card with supporting text below as a natural lead-in to additional
+                                content. This content is a little bit longer.
+                            </p>
+                            <p class="card-text small text-muted fw-bold"><small>Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-sm-12 col-md-6 col-lg-6 s2row4__lado2">
+
+                    <div class="s2row4lado2__pasos pt-2">
+                        <p class="bg-warning text-light py-2 px-3 rounded-circle">
+                            1
+                        </p>
+
+                        <p class="text-muted small">
+                            <span class="fw-bolder fs-6">Step 1:</span> Save $1,000 for your starter emergency fund.
+                        </p>
+                    </div>
+
+                    <div class="s2row4lado2__pasos pt-2">
+                        <p class="bg-warning text-light py-2 px-3 rounded-circle">
+                            2
+                        </p>
+
+                        <p class="text-muted small">
+                            <span class="fw-bolder fs-6">Step 2:</span> Pay off all debt (except the house) using the
+                            debt snowball.
+                        </p>
+                    </div>
+
+
+                    <div class="s2row4lado2__pasos pt-2">
+                        <p class="bg-warning text-light py-2 px-3 rounded-circle">
+                            3
+                        </p>
+
+                        <p class="text-muted small">
+                            <span class="fw-bolder fs-6">Step 3:</span> Save 3–6 months of expenses in a fully funded
+                            emergency fund.
+                        </p>
+                    </div>
+
+
+
+                    <div class="s2row4lado2__pasos pt-2">
+                        <p class="bg-warning text-light py-2 px-3 rounded-circle">
+                            4
+                        </p>
+
+                        <p class="text-muted small">
+                            <span class="fw-bolder fs-6">Step 4:</span> Invest 15% of your household income in
+                            retirement.
+                        </p>
+                    </div>
+
+
+
+                    <div class="s2row4lado2__pasos pt-2">
+                        <p class="bg-warning text-light py-2 px-3 rounded-circle">
+                            5
+                        </p>
+
+                        <p class="text-muted small">
+                            <span class="fw-bolder fs-6">Step 5:</span> Save for your children’s college fund
+                        </p>
+                    </div>
+
+
+                    <div class="s2row4lado2__pasos pt-2">
+                        <p class="bg-warning text-light py-2 px-3 rounded-circle">
+                            6
+                        </p>
+
+                        <p class="text-muted small">
+                            <span class="fw-bolder fs-6">Step 6:</span> Pay off your home early.
+                        </p>
+                    </div>
+
+
+                    <div class="s2row4lado2__pasos pt-2">
+                        <p class="bg-warning text-light py-2 px-3 rounded-circle">
+                            7
+                        </p>
+
+                        <p class="text-muted small">
+                            <span class="fw-bolder fs-6">Step 7:</span> Build wealth and give.
+                        </p>
+                    </div>
+
+
+
+
+
+
+
+
+
+                </div>
+
+
+            </div>
+
+
+            <div class="row">
+                <p class="text-end fs-3 ">
+                    <a href="#proyecto2"><i class="bi bi-house-up-fill text-danger"></i></a>
+                </p>
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- proyecto3 -->
+    <section class="contenedor__s3 h-100 mt-5" id="proyecto3">
+        <div class="container">
+
+            <div class="row s3_row1 text-center">
+
+                <div class="col-lg-12">
+                    <img src="./imagenes/logoproyecto3.svg" alt="" title="" class="mt-4 mb-4 logosize">
+
+                    <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);"
+                        aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item "><a href="#"
+                                    class="text-dark fw-bolder text-decoration-none">Proyecto #3</a></li>
+                            <li class="breadcrumb-item active small text-muted" aria-current="page">Producto 1</li>
+                            <li class="breadcrumb-item active small text-muted" aria-current="page">Producto 2</li>
+                            <li class="breadcrumb-item active small text-muted" aria-current="page">Producto 3</li>
+                        </ol>
+
+                    </nav>
+                </div>
+
+
+            </div>
+
+
+            <div class="row s3_row2">
+                <div class="col-12">
+
+                    <div class="s3row2__cabecera bg-black p-5">
+                        <h2 class="s3row2__titulo1 display-2 text-center text-uppercase">
+                            Black <br>
+                            Friday
+                        </h2>
+
+                        <p class="s3row2__subtitulo display-4 text-center">
+                            Sale
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="row s3_row3 mt-5">
+                <div class="col-lg-6">
+
+                    <figure class="figure">
+                        <img src="./imagenes/seccion3-2.jpg" class="figure-img img-fluid rounded p-5" alt="...">
+                        <figcaption class="figure-caption text-center">Cras sollicitudin rutrum orci, eu
+                            condimentum.</figcaption>
+                    </figure>
+
+
+                </div>
+
+
+                <div class="col-lg-6 shop">
+                    <div class="s3row__oferta h-100">
+                        <h3 class="display-3 ">
+                            50% OFF
+                        </h3>
+
+                        <h4 class="fw-bolder mb-3 mt-2">
+                            Product
+                        </h4>
+
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere libero!
+                        </p>
+
+                        <button type="button" class="btn btn-dark w-50 text-uppercase ">Shop <i
+                                class="bi bi-cart-plus"></i></button>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div class="row s3_row4 mt-5 bg-light">
+
+                <div class="col-lg-6 shop">
+                    <div class="s3row__oferta h-100">
+                        <h3 class="display-3 ">
+                            60% OFF
+                        </h3>
+
+                        <h4 class="fw-bolder mb-3 mt-2">
+                            Product
+                        </h4>
+
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere libero!
+                        </p>
+
+                        <button type="button" class="btn btn-dark w-50 text-uppercase ">Shop <i
+                                class="bi bi-cart-plus"></i></button>
+
+                    </div>
+                </div>
+
+
+                <div class="col-lg-6">
+                    <figure class="figure">
+                        <img src="./imagenes/seccion3-3.jpg" class="figure-img img-fluid rounded p-5" alt="...">
+                        <figcaption class="figure-caption text-center">Cras sollicitudin rutrum orci, eu
+                            condimentum.</figcaption>
+                    </figure>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="row s3_row5">
+
+                <div class="col-lg-6">
+
+                    <figure class="figure">
+                        <img src="./imagenes/seccion3-4.jpg" class="figure-img img-fluid rounded p-5" alt="...">
+                        <figcaption class="figure-caption text-center">Cras sollicitudin rutrum orci, eu
+                            condimentum.</figcaption>
+                    </figure>
+
+
+                </div>
+
+
+                <div class="col-lg-6 shop">
+                    <div class="s3row__oferta h-100">
+                        <h3 class="display-3 ">
+                            70% OFF
+                        </h3>
+
+                        <h4 class="fw-bolder mb-3 mt-2">
+                            Product
+                        </h4>
+
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere libero!
+                        </p>
+
+                        <button type="button" class="btn btn-dark w-50 text-uppercase ">Shop <i
+                                class="bi bi-cart-plus"></i></button>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="row">
+                <p class="text-end fs-3 ">
+                    <a href="#proyecto3"><i class="bi bi-house-up-fill text-danger"></i></a>
+                </p>
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+
+    <!-- proyecto4 -->
+    <section class="contenedor__s4 h-100 mt-5" id="proyecto4">
+
+        <div class="container">
+            <div class="row s4_row1">
+
+                <div class="col-lg-12">
+                    <img src="./imagenes/logoproyecto4.svg" alt="" title="" class="mt-4 mb-4 logosize">
+
+                    <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);"
+                        aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item "><a href="#"
+                                    class="text-dark fw-bolder text-decoration-none">Proyecto #4</a></li>
+                            <li class="breadcrumb-item active small text-muted" aria-current="page">Home</li>
+                            <li class="breadcrumb-item active small text-muted" aria-current="page">Courses</li>
+                            <li class="breadcrumb-item active small text-muted" aria-current="page">Testimonials</li>
+
+                        </ol>
+
+                    </nav>
+                </div>
+
+
+            </div>
+
+
+            <div class="row s4_row2">
+
+                <div class="col-sm-12 col-md-6 col-lg-6 s4row2__lado1">
+
+                    <div class="s4row2__imagen p-5">
+                        <figure class="figure">
+                            <img src="./imagenes/seccion4.jpg" class="figure-img img-fluid rounded p-5" alt="...">
+                            <figcaption class="figure-caption text-center">Cras sollicitudin rutrum orci, eu
+                                condimentum.</figcaption>
+                        </figure>
+                    </div>
+
+                </div>
+
+
+                <div class="col-sm-12 col-md-6 col-lg-6 s4row2__lado2">
+                    <h2 class="display-3">
+                        Unlock Your <span class="text-warning fw-bold">Potential</span>
+                    </h2>
+
+                    <p class="lead text-muted">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores ad sint quas ipsum tempore.
+                        Ipsum sint atque quis enim ea laboriosam magnam? Facilis voluptatem obcaecati dolorum voluptate
+                        fugiat voluptas optio, quod deserunt nisi illo ad.
+                    </p>
+
+                    <button type="button" class="btn btn-warning w-50 text-capitalize ">View Courses <i
+                            class="bi bi-journal-bookmark-fill"></i></button>
+
+                </div>
+
+
+            </div>
+
+
+            <div class="row s5_row2 mt-5 bg-light">
+
+                <h3 class="display-6 text-center">
+                    Featured Courses
+                </h3>
+
+                <p class="text-center">
+                    Discover your perfect program in our courses
+                </p>
+
+            </div>
+
+
+            <div class="row s5_row3 row-cols-1 row-cols-md-3 g-4 bg-light">
+                <div class="col">
+                    <div class="card aria-hidden=" true"">
+                        <img src="./imagenes/seccion4-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title placeholder-glow">
+                                <span class="placeholder col-6"></span>
+                            </h5>
+                            <p class="card-text placeholder-glow">
+                                <span class="placeholder col-7"></span>
+                                <span class="placeholder col-4"></span>
+                                <span class="placeholder col-4"></span>
+                                <span class="placeholder col-6"></span>
+                                <span class="placeholder col-8"></span>
+                            </p>
+                            <a class="btn btn-warning disabled placeholder col-6" aria-disabled="true"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card aria-hidden=" true"">
+                        <img src="./imagenes/seccion4-2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title placeholder-glow">
+                                <span class="placeholder col-6"></span>
+                            </h5>
+                            <p class="card-text placeholder-glow">
+                                <span class="placeholder col-7"></span>
+                                <span class="placeholder col-4"></span>
+                                <span class="placeholder col-4"></span>
+                                <span class="placeholder col-6"></span>
+                                <span class="placeholder col-8"></span>
+                            </p>
+                            <a class="btn btn-warning disabled placeholder col-6" aria-disabled="true"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card aria-hidden=" true"">
+                        <img src="./imagenes/seccion4-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title placeholder-glow">
+                                <span class="placeholder col-6"></span>
+                            </h5>
+                            <p class="card-text placeholder-glow">
+                                <span class="placeholder col-7"></span>
+                                <span class="placeholder col-4"></span>
+                                <span class="placeholder col-4"></span>
+                                <span class="placeholder col-6"></span>
+                                <span class="placeholder col-8"></span>
+                            </p>
+                            <a class="btn btn-warning disabled placeholder col-6" aria-disabled="true"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card aria-hidden=" true"">
+                        <img src="./imagenes/seccion4-4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title placeholder-glow">
+                                <span class="placeholder col-6"></span>
+                            </h5>
+                            <p class="card-text placeholder-glow">
+                                <span class="placeholder col-7"></span>
+                                <span class="placeholder col-4"></span>
+                                <span class="placeholder col-4"></span>
+                                <span class="placeholder col-6"></span>
+                                <span class="placeholder col-8"></span>
+                            </p>
+                            <a class="btn btn-warning disabled placeholder col-6" aria-disabled="true"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card aria-hidden=" true"">
+                        <img src="./imagenes/seccion4-5.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title placeholder-glow">
+                                <span class="placeholder col-6"></span>
+                            </h5>
+                            <p class="card-text placeholder-glow">
+                                <span class="placeholder col-7"></span>
+                                <span class="placeholder col-4"></span>
+                                <span class="placeholder col-4"></span>
+                                <span class="placeholder col-6"></span>
+                                <span class="placeholder col-8"></span>
+                            </p>
+                            <a class="btn btn-warning disabled placeholder col-6" aria-disabled="true"></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col">
+                    <div class="card aria-hidden=" true"">
+                        <img src="./imagenes/seccion4-6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title placeholder-glow">
+                                <span class="placeholder col-6"></span>
+                            </h5>
+                            <p class="card-text placeholder-glow">
+                                <span class="placeholder col-7"></span>
+                                <span class="placeholder col-4"></span>
+                                <span class="placeholder col-4"></span>
+                                <span class="placeholder col-6"></span>
+                                <span class="placeholder col-8"></span>
+                            </p>
+                            <a class="btn btn-warning disabled placeholder col-6" aria-disabled="true"></a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+            <div class="row s6_row3 mt-5 p-5 bg-black">
+
+                <div class="col-lg-12">
+                    <p class="text-center text-light fst-italic fs-5">
+                        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod maxime debitis suscipit iure
+                        quaerat iste quasi perferendis assumenda repellat aperiam recusandae minima sed et,
+                        exercitationem corrupti voluptatem! Deserunt, ratione nemo! Quos nam, velit aliquam error cum
+                        dicta molestias deleniti ex."
+                    </p>
+
+                    <p class="text-center text-light fw-bold">
+                        Martin <br> <span class=" small fw-light">Happy customer</span>
+                    </p>
+
+
+
+                </div>
+
+            </div>
+
+
+            <div class="row">
+                <p class="text-end fs-3 ">
+                    <a href="#proyecto4"><i class="bi bi-house-up-fill text-danger"></i></a>
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- proyecto5 -->
+    <section class="contenedor__s5 h-100 mt-5" id="proyecto5">
+        <div class="container">
+
+            <div class="row s5_row1 bg-danger">
+                <div class="col-lg-12">
+                    <img src="./imagenes/logoproyecto5.svg" alt="" title="" class="mt-4 mb-4 logosize">
+
+                    <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);"
+                        aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item "><a href="#"
+                                    class="text-dark fw-bolder text-decoration-none">Proyecto #5</a></li>
+                            <li class="breadcrumb-item active small text-light" aria-current="page">Home</li>
+                            <li class="breadcrumb-item active small text-light" aria-current="page">Services</li>
+                            <li class="breadcrumb-item active small text-light" aria-current="page">Features</li>
+
+                        </ol>
+
+                    </nav>
+                </div>
+
+            </div>
+
+
+
+            <div class="row s5_row2 bg-danger h-100">
+                <div class="col-12 text-center mt-5 mb-5 s4row2__cabecera">
+
+                    <p class="lead text-light">
+                        Full responsive website | built with bootstrap 5
+                    </p>
+                    <h2 class="display-4 text-light mb-3">
+                        Movil - Premium App One Page Template
+                    </h2>
+
+                    <button type="button" class="btn btn-outline-light w-25 text-capitalize ">Download <i
+                            class="bi bi-cloud-arrow-down-fill"></i></button>
+                </div>
+
+            </div>
+
+
+
+            <div class="row s5_row3 my-5  ms-0 me-0">
+
+                <h3 class="display-6 text-center">
+                    Services
+                </h3>
+
+                <hr class="w-25 mx-auto">
+
+
+                <div class="row row-cols-1 row-cols-md-4 g-4 mt-0 mx-auto">
+                    <div class="col">
+                        <div class="card h-100">
+                            <i class="bi bi-heart p-2 ps-3 fs-2"></i>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold fs-6">Love Design</h5>
+                                <p class="card-text small text-muted">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quod quo
+                                    facere unde mollitia deserunt eveniet.
+                                </p>
+
+                                <button type="button" class="btn btn-dark btn-sm text-uppercase">read more</button>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100">
+                            <i class="bi bi-eye p-2 ps-3 fs-2"></i>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold fs-6">Clean UI</h5>
+                                <p class="card-text small text-muted">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quod quo
+                                    facere unde mollitia deserunt eveniet.
+                                </p>
+
+                                <button type="button" class="btn btn-dark btn-sm text-uppercase">read
+                                    more</button>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100">
+                            <i class="bi bi-phone p-2 ps-3 fs-2"></i>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold fs-6">Responsive</h5>
+                                <p class="card-text small text-muted">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quod quo facere
+                                    unde mollitia deserunt eveniet.
+                                </p>
+
+                                <button type="button" class="btn btn-dark btn-sm text-uppercase">read more</button>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col">
+                        <div class="card h-100">
+                            <i class="bi bi-image p-2 ps-3 fs-2"></i>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold fs-6">Simple UX</h5>
+                                <p class="card-text small text-muted">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quod quo facere
+                                    unde mollitia deserunt eveniet.
+                                </p>
+
+                                <button type="button" class="btn btn-dark btn-sm text-uppercase">read more</button>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="row s5_row4 my-5 bg-light">
+
+                <div class="col-lg-6 s5row4__lado1">
+
+                    <figure class="figure">
+                        <img src="./imagenes/seccion5-1.jpg" class="figure-img img-fluid rounded p-5" alt="...">
+                        <figcaption class="figure-caption text-center">Cras sollicitudin rutrum orci, eu condimentum.
+                        </figcaption>
+                    </figure>
+
+                </div>
+
+
+
+                <div class="col-lg-6 s5row4__lado2">
+
+                    <div class="s5row4lado2__titulo">
+                        <h3 class="display-6 text-center text-capitalize">
+                            Learn More About Our <span class="text-danger">Features</span>
+                        </h3>
+                    </div>
+
+
+                    <div class="s5row4lado2__texto">
+
+                        <ol class="list-group small">
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+
+                                <i class="bi bi-check-lg text-danger fs-2 me-2"></i>
+                                <div class="ms-2 me-auto">
+
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolor provident
+                                    quibusdam debitis, pariatur ducimus voluptatem labore facere?
+                                </div>
+
+                            </li>
+
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+
+                                <i class="bi bi-check-lg text-danger fs-2 me-2"></i>
+                                <div class="ms-2 me-auto">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                                    dolor provident
+                                    quibusdam debitis, pariatur ducimus voluptatem labore facere?
+                                </div>
+
+                            </li>
+
+
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <i class="bi bi-check-lg text-danger fs-2 me-2"></i>
+                                <div class="ms-2 me-auto">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolor
+                                    provident
+                                    quibusdam debitis, pariatur ducimus voluptatem labore facere?
+                                </div>
+                            </li>
+
+
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <i class="bi bi-check-lg text-danger fs-2 me-2"></i>
+                                <div class="ms-2 me-auto">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Tempore dolor
+                                    provident
+                                    quibusdam debitis, pariatur ducimus voluptatem labore
+                                    facere?
+                                </div>
+                            </li>
+
+
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <i class="bi bi-check-lg text-danger fs-2 me-2"></i>
+                                <div class="ms-2 me-auto">
+                                    Lorem ipsum dolor sit amet
+                                    consectetur adipisicing
+                                    elit. Tempore dolor
+                                    provident
+                                    quibusdam debitis, pariatur
+                                    ducimus voluptatem labore
+                                    facere?
+                                </div>
+                            </li>
+
+
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <i class="bi bi-check-lg text-danger fs-2 me-2"></i>
+                                <div class="ms-2 me-auto">
+                                    Lorem
+                                    ipsum
+                                    dolor
+                                    sit
+                                    amet
+                                    consectetur
+                                    adipisicing
+                                    elit.
+                                    Tempore
+                                    dolor
+                                    provident
+                                    quibusdam
+                                    debitis,
+                                    pariatur
+                                    ducimus
+                                    voluptatem
+                                    labore
+                                    facere?
+                                </div>
+                            </li>
+
+
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <i class="bi bi-check-lg text-danger fs-2 me-2"></i>
+                                <div class="ms-2 me-auto">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Tempore dolor
+                                    provident
+                                    quibusdam debitis, pariatur ducimus voluptatem labore
+                                    facere?
+                                </div>
+                            </li>
+
+
+
+
+                        </ol>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+
+            <div class="row s5_row5 mt-5">
+                <h3 class="display-6 text-center">
+                    Download
+                </h3>
+
+                <hr class="w-25 mx-auto">
+
+                <div class="col-lg-12 text-center">
+                    <p class="text-muted">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia maxime aperiam ipsam adipisci
+                        repudiandae consequatur non magni quaerat corrupti id pariatur, architecto quidem soluta!
+                        Excepturi natus, qui adipisci perspiciatis, corporis maiores.
+                    </p>
+
+                    <figure class="figure">
+                        <img src="./imagenes/seccion5-2.png" class="figure-img img-fluid rounded p-0" alt="...">
+                    </figure>
+                </div>
+
+
+
+
+
+
+            </div>
+
+
+            <div class="row">
+                <p class="text-end fs-3">
+                    <a href="#proyecto5"><i class="bi bi-house-up-fill text-danger"></i></a>
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- proyecto6 -->
+    <section class="contenedor__s6 h-100 mt-5" id="proyecto6">
+
+        <div class="container">
+            <div class="row s6_row1">
+
+                <div class="col-lg-12">
+                    <img src="./imagenes/logoproyecto6.svg" alt="" title="" class="mt-4 mb-4 logosize">
+
+                    <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);"
+                        aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item "><a href="#"
+                                    class="text-dark fw-bolder text-decoration-none">Proyecto #6</a></li>
+                            <li class="breadcrumb-item active small " aria-current="page">About</li>
+                            <li class="breadcrumb-item active small " aria-current="page">Courses</li>
+                            <li class="breadcrumb-item active small " aria-current="page">Sign Up</li>
+
+                        </ol>
+
+                    </nav>
+                </div>
+
+            </div>
+
+
+            <div class="row s6_row2 h-100 mt-5">
+
+                <div class="col-lg-6 s6row2__lado1">
+                    <h2 class="display-3 text-capitalize fw-medium">
+                        learn <span>web development</span> with real projects
+                    </h2>
+
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat illo explicabo distinctio ab!
+                        Commodi quas numquam fugit quia quam repellendus assumenda, tempora iste natus ipsum.
+                    </p>
+
+                    <button type="button" class="btn w-25 text-capitalize ">Explore <i class="bi bi-search"></i>
+                    </button>
+
+
+                </div>
+
+
+                <div class="col-lg-6 s6row2__lado2">
+                    <figure class="figure">
+                        <img src="./imagenes/seccion6-2.png" class="figure-img img-fluid rounded p-5" alt="...">
+                    </figure>
+                </div>
+
+            </div>
+
+
+
+            <div class="row s6_row3 mt-5">
+
+                <h6 class="text-capitalize text-center">
+                    About us
+                </h6>
+
+                <h3 class="display-6 text-center mb-3">
+                    Why choose us
+                </h3>
+
+
+                <div class="col-lg-6 s6row2__lado1">
+                    <p class="small">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis ex, laudantium assumenda
+                        maxime in, dolorum iure officiis, fugiat corrupti eveniet sint dicta cumque culpa et numquam
+                        corporis. Facere libero labore assumenda fugiat, inventore quasi dolore debitis sint excepturi
+                        maxime rem amet error aspernatur veniam fugit eos, neque aliquam non minima porro odio. Nulla,
+                        suscipit accusantium quas quidem obcaecati ipsa perferendis, ullam minus saepe voluptate enim
+                        beatae perspiciatis voluptatem voluptatibus magnam quam facere recusandae earum numquam!
+                        Distinctio explicabo fuga quia possimus repellendus inventore sed sequi commodi, iste quisquam
+                        quos modi fugiat veritatis? Consectetur officiis et molestias?
+                    </p>
+
+
+                </div>
+
+
+
+                <div class="col-lg-6 s6row3__lado2">
+
+                    <div class="s6row3lado2__texto">
+
+                        <ol class="list-group small">
+                            <li
+                                class="list-group-item d-flex justify-content-between align-content-center align-items-center align-self-start">
+
+                                <i class="bi bi-code-slash text-primary fs-5 me-2 py-1 px-2 rounded-circle"></i>
+                                <div class="ms-2 me-auto text-uppercase">
+                                    development skills
+                                </div>
+
+                            </li>
+
+
+                            <li
+                                class="list-group-item d-flex justify-content-between align-content-center align-items-center align-self-start">
+
+                                <i class="bi bi-person text-primary fs-5 me-2 py-1 px-2 rounded-circle"></i>
+                                <div class="ms-2 me-auto text-uppercase">
+                                    career opportunities
+                                </div>
+
+                            </li>
+
+
+                            <li
+                                class="list-group-item d-flex justify-content-between align-content-center align-items-center align-self-start">
+                                <i class="bi bi-globe-americas text-primary fs-5 me-2 py-1 px-2 rounded-circle"></i>
+                                <div class="ms-2 me-auto text-uppercase">
+                                    real world experiences
+                                </div>
+                            </li>
+
+
+                            <li
+                                class="list-group-item d-flex justify-content-between align-content-center align-items-center align-self-start">
+                                <i class="bi bi-lightbulb text-primary fs-5 me-2 py-1 px-2 rounded-circle"></i>
+                                <div class="ms-2 me-auto text-uppercase">
+                                    innovation
+                                </div>
+                            </li>
+
+
+
+                        </ol>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+            <div class="row s6_row4 mt-5 bg-light">
+
+                <h6 class="text-capitalize text-center">
+                    Courses
+                </h6>
+
+                <h3 class="display-6 text-center mb-3">
+                    Popular online courses
+                </h3>
+
+                <div class="row row-cols-1 row-cols-md-3 g-4 mt-0 mx-auto">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="./imagenes/seccion6-3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <button type="button" class="btn btn-sm w-50 mb-0"> <i class="bi bi-clock"></i> 12 weeks
+                                    class
+                                </button>
+
+                                <div class="d-flex justify-content-start align-content-center align-items-center">
+                                    <img src="./imagenes/testimonio1.jpg" alt="" class="user rounded-circle mb-3">
+                                    <p class="m-2 small">Ria Hetzenauer</p>
+                                </div>
+
+                                <h5 class="card-title fw-bold fs-6">UX Fundamental</h5>
+                                <p class="card-text small">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis exercitationem
+                                    dolore voluptas cupiditate alias nobis. Esse veritatis consequuntur tenetur
+                                    adipisci.
+                                </p>
+
+                            </div>
+
+
+
+
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="./imagenes/seccion6-4.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <button type="button" class="btn btn-sm w-50 mb-0"> <i class="bi bi-clock"></i> 12 weeks
+                                    class
+                                </button>
+
+                                <div class="d-flex justify-content-start align-content-center align-items-center">
+                                    <img src="./imagenes/testimonio2.jpg" alt="" class="user rounded-circle mb-3">
+                                    <p class="m-2 small">Vollrath von Hellermann</p>
+                                </div>
+
+                                <h5 class="card-title fw-bold fs-6">Modern HTML & CSS</h5>
+                                <p class="card-text small">This card has supporting text below as a natural lead-in to
+                                    additional content.</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="../imagenes/seccion6-5.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <button type="button" class="btn btn-sm w-50 mb-0"> <i class="bi bi-clock"></i> 12 weeks
+                                    class
+                                </button>
+
+
+                                <div class="d-flex justify-content-start align-content-center align-items-center">
+                                    <img src="./imagenes/testimonio3.jpg" alt="" class="user rounded-circle mb-3">
+                                    <p class="m-2 small">Lia Brandenberger</p>
+                                </div>
+
+
+                                <h5 class="card-title fw-bold fs-6">Bootstrap 5</h5>
+
+                                <p class="card-text small">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing
+                                    elit. Veritatis exercitationem
+                                    dolore voluptas cupiditate alias nobis. Esse
+                                    veritatis consequuntur tenetur
+                                    adipisci.
+                                </p>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+            <div class="row">
+                <p class="text-end fs-3">
+                    <a href="#proyecto6"><i class="bi bi-house-up-fill text-danger"></i></a>
+                </p>
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+    <!-- Iconos Bootstrap CDN -->
+    <!-- CDN -->
+    <!-- recomendable -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+
+
+
+    <!-- Otras funcionalidades -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+    </script>
+
+
+    <!--     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous">
+    </script>
+    -->
+
+
+</body>
+
+</html>
