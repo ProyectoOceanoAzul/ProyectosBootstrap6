@@ -330,86 +330,29 @@ img.user{
 
 
 
-/******************************************/
-/*proyecto6*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*Adaptable (Responsive)*/
-@media screen and (max-width: 800px)
+
+@media screen and (max-width: 768px)
 {
 
+    div.carousel-caption h5{
+        font-size: 1rem;
+    }
+
+    div.carousel-caption p{
+        font-size: 0.7rem;
+    }
 
 }
 
 
-
-@media screen and (max-width: 767px)
+@media screen and (max-width: 576px)
 {
 
+    div.s5_row2 div.s4row2__cabecera button.btn{
+        width: 50%!important;
+    }
 
 }
-
-@media screen and (min-width: 700px)
-{
-
-}
-
-
-@media screen and (max-width: 400px)
-{
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
